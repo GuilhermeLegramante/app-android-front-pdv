@@ -1,5 +1,5 @@
 # app-android-front-pdv
-App para fechamento simplificado de conta de um PDV, desenvolvido em Java.
+App Android para fechamento simplificado de conta de um PDV, desenvolvido em Java.
 
 <h3> Funcionalidades  </h3>
 
@@ -8,3 +8,8 @@ App para fechamento simplificado de conta de um PDV, desenvolvido em Java.
 - Geração de recibo 
 - Compartilhamento do recibo gerado
 
+
+![](/screenshoots/1.jpeg)
+![](/screenshoots/2.jpeg)
+![](/screenshoots/3.jpeg)
+![](/screenshoots/4.jpeg)
