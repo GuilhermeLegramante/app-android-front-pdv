@@ -1,47 +1,36 @@
 package com.example.desafiomobile;
 
-import android.Manifest;
 import android.app.Activity;
 import android.content.Intent;
-import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
-import android.graphics.drawable.BitmapDrawable;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Environment;
-import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
-import android.widget.Toast;
 
-import java.io.ByteArrayInputStream;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
-import java.io.OutputStream;
 import java.util.BitSet;
 import java.util.Date;
 
-import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.app.ActivityCompat;
-import androidx.core.content.ContextCompat;
 import androidx.core.content.FileProvider;
 
 public class ReceiptActivity extends AppCompatActivity  {
 
-    Activity thisActivity;
+    private Activity thisActivity;
 
-    Button btn_confirm;
-    TextView textViewPayment;
-    TextView textViewValue;
-    TextView textViewDate;
+    private Button btn_confirm;
+    private TextView textViewPayment;
+    private TextView textViewValue;
+    private TextView textViewDate;
 
     private static final int STORAGE_PERMISSION_CODE = 101;
     private Bitmap bmp;

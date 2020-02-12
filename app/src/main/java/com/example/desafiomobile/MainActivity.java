@@ -19,39 +19,39 @@ import java.util.Date;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
-    ViewPager viewPager;
+    private ViewPager viewPager;
 
-    Button btn_1;
-    Button btn_2;
-    Button btn_3;
-    Button btn_4;
-    Button btn_5;
-    Button btn_6;
-    Button btn_7;
-    Button btn_8;
-    Button btn_9;
-    Button btn_0;
-    Button btn_backspace;
-    Button btn_comma;
-    Button btn_dot_purple;
-    Button btn_dot_gray;
+    private Button btn_1;
+    private Button btn_2;
+    private Button btn_3;
+    private Button btn_4;
+    private Button btn_5;
+    private Button btn_6;
+    private Button btn_7;
+    private Button btn_8;
+    private Button btn_9;
+    private Button btn_0;
+    private Button btn_backspace;
+    private Button btn_comma;
+    private Button btn_dot_purple;
+    private Button btn_dot_gray;
 
-    ImageButton button_money;
-    ImageButton button_credit;
-    ImageButton button_debit;
-    ImageButton button_vr;
-    ImageButton button_cupom;
+    private ImageButton button_money;
+    private ImageButton button_credit;
+    private ImageButton button_debit;
+    private ImageButton button_vr;
+    private ImageButton button_cupom;
 
-    TextView tv;
+    private TextView tv;
 
-    HorizontalScrollView scrollView;
+    private HorizontalScrollView scrollView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN); // Para o layout preencher toda tela do cel (remover a barra de tit.)
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         getSupportActionBar().hide();
 
         viewPager = (ViewPager) findViewById(R.id.viewPager);
@@ -94,8 +94,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         buttonWritesOnTextView(btn_0, tv, "0");
         buttonWritesOnTextView(btn_comma, tv, ",");
         buttonClearsTextView(btn_backspace, tv);
-
-
 
         scrollView.setOnTouchListener(new View.OnTouchListener() {
 
@@ -174,7 +172,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
         startActivity(intent);
     }
-
 
 }
 
