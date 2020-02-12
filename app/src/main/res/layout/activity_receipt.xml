@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:elevation="0dp"
+    android:theme="@style/AppTheme"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background2">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="410dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="50dp"
+        app:srcCompat="@drawable/receipt_background" />
+
+    <Button
+        android:id="@+id/btn_confirm"
+        android:text="Confirmar"
+        android:textColor="#FFFFFF"
+        android:textSize="22dp"
+        android:layout_marginTop="530dp"
+        android:layout_width="160dp"
+        android:layout_height="55dp"
+        android:fontFamily="@font/din"
+        android:background="@drawable/buttonconfirm"
+        android:layout_marginLeft="100dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="135dp"
+        android:layout_height="95dp"
+        android:layout_marginTop="145dp"
+        android:layout_marginLeft="110dp"
+        app:srcCompat="@drawable/ic_logo" />
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/tahomabold"
+        android:text="@string/eyemobile"
+        android:layout_marginTop="230dp"
+        android:layout_marginLeft="98dp"
+        android:textSize="12dp"/>
+
+    <TextView
+        android:id="@+id/textViewAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/tahoma"
+        android:text="@string/endereco"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="98dp"
+        android:textSize="12dp"/>
+
+    <TextView
+        android:id="@+id/textViewNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/tahoma"
+        android:text="@string/numrua"
+        android:layout_marginTop="270dp"
+        android:layout_marginLeft="150dp"
+        android:textSize="12dp"/>
+
+    <TextView
+        android:id="@+id/textViewRsValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/tahomabold"
+        android:text="@string/rsvalue"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="135dp"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/textViewValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/tahomabold"
+        android:text="30,00"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="165dp"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/textViewPayment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/tahoma"
+        android:text="Dinheiro"
+        android:layout_marginTop="335dp"
+        android:layout_marginLeft="155dp"
+        android:textSize="12dp"/>
+
+    <TextView
+        android:id="@+id/textViewDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/tahoma"
+        android:text="05/10/2019 18:00:00"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="125dp"
+        android:textSize="12dp"/>
+
+
+</RelativeLayout>

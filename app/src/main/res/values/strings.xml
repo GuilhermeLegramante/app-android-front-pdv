@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">App PDV</string>
+    <string name="dinheiro">DINHEIRO</string>
+    <string name="credito">CRÉDITO</string>
+    <string name="debito">DÉBITO</string>
+    <string name="vr">V.R.</string>
+    <string name="cupom">CUPOM</string>
+    <string name="eyemobile">Eyemobile Tecnologia LTDA</string>
+    <string name="endereco">Rua Airton Roberto de Oliveira</string>
+    <string name="numrua">Número 64</string>
+    <string name="rsvalue">R$</string>
+</resources>
+

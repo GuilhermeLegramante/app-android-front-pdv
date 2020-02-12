@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:launchMode="singleTop"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context=".MainActivity"
+    android:background="@drawable/gradient_background">
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="140dp"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="12dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:fontFamily="@font/din"
+            android:text=""
+            android:textColor="#FFFFFF"
+            android:textSize="60dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/tv"
+            android:layout_marginStart="-35dp"
+            android:layout_marginLeft="@dimen/cardview_default_radius"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/din"
+            android:text="@string/rsvalue"
+            android:textColor="#FFFFFF"
+            android:textSize="40dp"
+
+            />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv"
+            android:layout_marginStart="150dp"
+            android:layout_marginLeft="@dimen/cardview_default_radius"
+            android:layout_marginTop="-10dp"
+            android:fontFamily="@font/din"
+            android:text="TOTAL A PAGAR"
+            android:textColor="#FFFFFF"
+            android:textSize="15dp" />
+
+
+        <Button
+            android:id="@+id/btn_1"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_below="@id/tv"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="@dimen/cardview_default_radius"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/buttonshape"
+            android:text="1"
+            android:textColor="#FFFFFF"
+            android:fontFamily="@font/din"
+            android:textSize="30sp" />
+
+
+        <Button
+            android:id="@+id/btn_2"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_below="@id/tv"
+            android:layout_marginStart="40dp"
+            android:layout_marginLeft="@dimen/cardview_default_radius"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@id/btn_1"
+            android:background="@drawable/buttonshape"
+            android:text="2"
+            android:textColor="#FFFFFF"
+            android:fontFamily="@font/din"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btn_3"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_below="@id/tv"
+            android:layout_marginStart="40dp"
+            android:layout_marginLeft="@dimen/cardview_default_radius"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@id/btn_2"
+            android:background="@drawable/buttonshape"
+            android:text="3"
+            android:textColor="#FFFFFF"
+            android:fontFamily="@font/din"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btn_4"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_below="@id/btn_1"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="@dimen/cardview_default_radius"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/buttonshape"
+            android:text="4"
+            android:textColor="#FFFFFF"
+            android:fontFamily="@font/din"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btn_5"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_below="@id/btn_2"
+            android:layout_marginStart="40dp"
+            android:layout_marginLeft="@dimen/cardview_default_radius"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@id/btn_4"
+            android:background="@drawable/buttonshape"
+            android:text="5"
+            android:textColor="#FFFFFF"
+            android:fontFamily="@font/din"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btn_6"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_below="@id/btn_3"
+            android:layout_marginStart="40dp"
+            android:layout_marginLeft="@dimen/cardview_default_radius"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@id/btn_5"
+            android:background="@drawable/buttonshape"
+            android:text="6"
+            android:textColor="#FFFFFF"
+            android:fontFamily="@font/din"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btn_7"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_below="@id/btn_4"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="@dimen/cardview_default_radius"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/buttonshape"
+            android:text="7"
+            android:textColor="#FFFFFF"
+            android:fontFamily="@font/din"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btn_8"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_below="@id/btn_5"
+            android:layout_marginStart="40dp"
+            android:layout_marginLeft="@dimen/cardview_default_radius"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@id/btn_7"
+            android:background="@drawable/buttonshape"
+            android:text="8"
+            android:textColor="#FFFFFF"
+            android:fontFamily="@font/din"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btn_9"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_below="@id/btn_5"
+            android:layout_marginStart="40dp"
+            android:layout_marginLeft="@dimen/cardview_default_radius"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@id/btn_8"
+            android:background="@drawable/buttonshape"
+            android:text="9"
+            android:textColor="#FFFFFF"
+            android:fontFamily="@font/din"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btn_comma"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_below="@id/btn_7"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="@dimen/cardview_default_radius"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/buttonshape"
+            android:text=","
+            android:textColor="#FFFFFF"
+            android:fontFamily="@font/din"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btn_0"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_below="@id/btn_8"
+            android:layout_marginStart="150dp"
+            android:layout_marginLeft="@dimen/cardview_default_radius"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/buttonshape"
+            android:text="0"
+            android:textColor="#FFFFFF"
+            android:fontFamily="@font/din"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btn_backspace"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_below="@id/btn_9"
+            android:layout_marginStart="40dp"
+            android:layout_marginLeft="@dimen/cardview_default_radius"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@id/btn_0"
+            android:background="@drawable/buttonshape"
+            android:text="\u232b"
+            android:textColor="#FFFFFF"
+            android:fontFamily="@font/din"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btn_purple"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_marginStart="-60dp"
+            android:layout_marginLeft="@dimen/cardview_default_radius"
+            android:layout_marginTop="600dp"
+            android:background="@drawable/dotpurple"
+            android:layout_toRightOf="@id/btn_0"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btn_gray"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_marginStart="-20dp"
+            android:layout_marginLeft="@dimen/cardview_default_radius"
+            android:layout_marginTop="600dp"
+            android:background="@drawable/dotgray"
+            android:layout_toRightOf="@id/btn_0"
+            android:textSize="30sp" />
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="wrap_content"
+            android:layout_height="800dp"
+            android:layout_below="@id/btn_0"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/slider"
+            android:layout_marginTop="20dp"
+            >
+        </androidx.viewpager.widget.ViewPager>
+
+
+        <HorizontalScrollView
+            android:id="@+id/horizon"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="450dp"
+            android:layout_marginRight="55dp"
+            android:layout_marginLeft="40dp">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/button_money"
+                            android:background="@drawable/buttonmoney"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_marginLeft="30dp"
+                            android:text="1"
+                            />
+
+                        <TextView
+                            android:id="@+id/textViewMoney"
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:layout_marginStart="-60dp"
+                            android:layout_marginLeft="@dimen/cardview_default_radius"
+                            android:layout_marginTop="65dp"
+                            android:fontFamily="@font/din"
+                            android:text="@string/dinheiro"
+                            android:textColor="@color/cardview_dark_background"
+                            android:textSize="20dp"
+
+                            />
+
+
+
+                        <ImageButton
+                            android:id="@+id/button_credit"
+                            android:background="@drawable/buttoncredit"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_marginLeft="22dp"
+                            android:text="1"
+                            />
+
+                        <TextView
+                            android:id="@+id/textViewCredit"
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:layout_marginStart="-55dp"
+                            android:layout_marginLeft="@dimen/cardview_default_radius"
+                            android:layout_marginTop="65dp"
+                            android:fontFamily="@font/din"
+                            android:text="@string/credito"
+                            android:textColor="@color/cardview_dark_background"
+                            android:textSize="20dp"
+
+                            />
+
+                        <ImageButton
+                            android:id="@+id/button_debit"
+                            android:background="@drawable/buttondebit"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_marginLeft="30dp"
+                            android:text="1"
+                            />
+
+                        <TextView
+                            android:id="@+id/textViewDebit"
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:layout_marginStart="-55dp"
+                            android:layout_marginLeft="@dimen/cardview_default_radius"
+                            android:layout_marginTop="65dp"
+                            android:fontFamily="@font/din"
+                            android:text="@string/debito"
+                            android:textColor="@color/cardview_dark_background"
+                            android:textSize="20dp"
+
+                            />
+
+                        <ImageButton
+                            android:id="@+id/button_vr"
+                            android:background="@drawable/buttonvr"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_marginLeft="100dp"
+                            android:text="1"
+                            />
+
+
+                        <TextView
+                            android:id="@+id/textViewVr"
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:layout_marginStart="-40dp"
+                            android:layout_marginLeft="@dimen/cardview_default_radius"
+                            android:layout_marginTop="65dp"
+                            android:fontFamily="@font/din"
+                            android:text="@string/vr"
+                            android:textColor="@color/cardview_dark_background"
+                            android:textSize="20dp"
+
+                            />
+
+                        <ImageButton
+                            android:id="@+id/button_cupom"
+                            android:background="@drawable/buttoncupom"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_marginLeft="50dp"
+                            android:text="1"
+                            />
+
+                        <TextView
+                            android:id="@+id/textViewCupom"
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:layout_marginStart="-45dp"
+                            android:layout_marginLeft="@dimen/cardview_default_radius"
+                            android:layout_marginTop="65dp"
+                            android:fontFamily="@font/din"
+                            android:text="@string/cupom"
+                            android:textColor="@color/cardview_dark_background"
+                            android:textSize="20dp"
+
+                            />
+
+                </LinearLayout>
+
+        </HorizontalScrollView>
+
+
+
+
+</RelativeLayout>
